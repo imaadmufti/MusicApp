@@ -13,6 +13,10 @@
 		9E1E78142522FFB000DC5E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78122522FFB000DC5E75 /* Main.storyboard */; };
 		9E1E78162522FFB700DC5E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78152522FFB700DC5E75 /* Assets.xcassets */; };
 		9E1E78192522FFB700DC5E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78172522FFB700DC5E75 /* LaunchScreen.storyboard */; };
+		9E1E78252523025400DC5E75 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78222523025300DC5E75 /* song1.mp3 */; };
+		9E1E78262523025400DC5E75 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78232523025300DC5E75 /* song2.mp3 */; };
+		9E1E78272523025400DC5E75 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E78242523025300DC5E75 /* song3.mp3 */; };
+		9E1E782A2523048F00DC5E75 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E78292523048B00DC5E75 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9E1E78152522FFB700DC5E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1E78182522FFB700DC5E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E1E781A2522FFB700DC5E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1E78222523025300DC5E75 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		9E1E78232523025300DC5E75 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		9E1E78242523025300DC5E75 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		9E1E78292523048B00DC5E75 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		9E1E780B2522FFB000DC5E75 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				9E1E7821252301FB00DC5E75 /* Audio */,
 				9E1E780C2522FFB000DC5E75 /* AppDelegate.swift */,
 				9E1E780E2522FFB000DC5E75 /* SceneDelegate.swift */,
 				9E1E78102522FFB000DC5E75 /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				9E1E78152522FFB700DC5E75 /* Assets.xcassets */,
 				9E1E78172522FFB700DC5E75 /* LaunchScreen.storyboard */,
 				9E1E781A2522FFB700DC5E75 /* Info.plist */,
+				9E1E78292523048B00DC5E75 /* PlayerViewController.swift */,
 			);
 			path = MusicApp;
+			sourceTree = "<group>";
+		};
+		9E1E7821252301FB00DC5E75 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9E1E78222523025300DC5E75 /* song1.mp3 */,
+				9E1E78232523025300DC5E75 /* song2.mp3 */,
+				9E1E78242523025300DC5E75 /* song3.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1E78192522FFB700DC5E75 /* LaunchScreen.storyboard in Resources */,
+				9E1E78272523025400DC5E75 /* song3.mp3 in Resources */,
 				9E1E78162522FFB700DC5E75 /* Assets.xcassets in Resources */,
 				9E1E78142522FFB000DC5E75 /* Main.storyboard in Resources */,
+				9E1E78252523025400DC5E75 /* song1.mp3 in Resources */,
+				9E1E78262523025400DC5E75 /* song2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1E78112522FFB000DC5E75 /* ViewController.swift in Sources */,
+				9E1E782A2523048F00DC5E75 /* PlayerViewController.swift in Sources */,
 				9E1E780D2522FFB000DC5E75 /* AppDelegate.swift in Sources */,
 				9E1E780F2522FFB000DC5E75 /* SceneDelegate.swift in Sources */,
 			);
